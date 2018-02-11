@@ -12,6 +12,9 @@
 		37512926202F855C0021CA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37512924202F855C0021CA35 /* Main.storyboard */; };
 		37512928202F855C0021CA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37512927202F855C0021CA35 /* Assets.xcassets */; };
 		3751292B202F855C0021CA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37512929202F855C0021CA35 /* LaunchScreen.storyboard */; };
+		37512933202F86530021CA35 /* CG2DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37512932202F86530021CA35 /* CG2DView.swift */; };
+		37512935202F8E300021CA35 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37512934202F8E300021CA35 /* Utils.swift */; };
+		3751293720307AFC0021CA35 /* ConnectedGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3751293620307AFC0021CA35 /* ConnectedGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		37512927202F855C0021CA35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3751292A202F855C0021CA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3751292C202F855D0021CA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37512932202F86530021CA35 /* CG2DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CG2DView.swift; sourceTree = "<group>"; };
+		37512934202F8E300021CA35 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3751293620307AFC0021CA35 /* ConnectedGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				37512927202F855C0021CA35 /* Assets.xcassets */,
 				37512929202F855C0021CA35 /* LaunchScreen.storyboard */,
 				3751292C202F855D0021CA35 /* Info.plist */,
+				37512932202F86530021CA35 /* CG2DView.swift */,
+				37512934202F8E300021CA35 /* Utils.swift */,
+				3751293620307AFC0021CA35 /* ConnectedGraph.swift */,
 			);
 			path = ConnectedGraph;
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37512933202F86530021CA35 /* CG2DView.swift in Sources */,
+				3751293720307AFC0021CA35 /* ConnectedGraph.swift in Sources */,
 				37512923202F855C0021CA35 /* ViewController.swift in Sources */,
 				37512921202F855C0021CA35 /* AppDelegate.swift in Sources */,
+				37512935202F8E300021CA35 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 548GRBZ3D6;
 				INFOPLIST_FILE = ConnectedGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.syrupmg.ConnectedGraph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 548GRBZ3D6;
 				INFOPLIST_FILE = ConnectedGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.syrupmg.ConnectedGraph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
